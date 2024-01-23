@@ -1,0 +1,66 @@
+/* General styles for the entire page */
+body {
+  font-family: 'Arial Black', cursive;
+  background-image: url('src/assets/images/wines.png');
+  background-color: #008080; /* Deeper turquoise background color */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff; /* White text color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: right;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #fff; /* White text color */
+}
+
+/* Styles for the logo images */
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo.react {
+  /* Additional styles for the React logo */
+}
+
+/* Styles for the main heading */
+.lush {
+  color: #fff;
+  font-size: 5em;
+  text-shadow: 2px 2px 4px #600020,
+               4px 4px 6px #600020,
+               6px 6px 8px #600020; /* Multiple shadows for a 3D effect */
+}
+/* Styles for the button */
+button {
+  background-color: #600020; /* Deep wine red background color */
+  color: #600020; /* White text color */
+  padding: 20px;
+  cursor: pointer;
+  border: 2px solid #fff; /* White border */
+  outline: none;
+  animation: vibrate 0.3s infinite alternate;
+}
+
+/* Updated styles for hover, focus, and active states */
+button:hover,
+button:focus,
+button:active {
+  background-color: #600020 !important; /* Deep wine red on hover/focus/active */
+  border: 2px solid #fff !important; /* White border on hover/focus/active */
+  color: #fff !important; /* White text color on hover/focus/active */
+  outline: none !important; /* Remove outline on hover/focus/active */
+  animation: none !important; /* Disable animation on hover/focus/active */
+}
+@keyframes vibrate {
+  to {
+    transform: translateX(5px); /* Adjust distance for the vibrating effect */
+  }
+}
