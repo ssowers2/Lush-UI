@@ -59,8 +59,27 @@ button:active {
   outline: none !important; /* Remove outline on hover/focus/active */
   animation: none !important; /* Disable animation on hover/focus/active */
 }
+
 @keyframes vibrate {
   to {
     transform: translateX(5px); /* Adjust distance for the vibrating effect */
   }
+}
+
+.indented-button {
+  margin-left: 70px; /* indent sign in button */
+}
+
+.link-container {
+  margin-left: 20px;
+}
+
+.create-account-link {
+  color: #ffd700;
+  text-decoration: underline;
+  font-family: 'Arial Black', cursive;
+}
+
+.indented-link {
+  margin-left: 80px; /* indent create account words */
 }
