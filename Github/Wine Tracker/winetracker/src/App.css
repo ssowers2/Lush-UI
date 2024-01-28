@@ -6,7 +6,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff; /* White text color */
+  color: #fff; /* White text */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  color: #fff; /* White text color */
+  color: #fff; /* White text */
 }
 
 /* Styles for the logo images */
@@ -26,22 +26,18 @@ h1 {
   margin-right: 10px;
 }
 
-.logo.react {
-  /* Additional styles for the React logo */
-}
-
 /* Styles for the main heading */
 .lush {
   color: #fff;
   font-size: 5em;
   text-shadow: 2px 2px 4px #600020,
                4px 4px 6px #600020,
-               6px 6px 8px #600020; /* Multiple shadows for a 3D effect */
+               6px 6px 8px #600020; /* 3D effect */
 }
 /* Styles for the button */
 button {
-  background-color: #600020; /* Deep wine red background color */
-  color: #600020; /* White text color */
+  background-color: #600020; /* Deep wine red background */
+  color: #600020; /* White text*/
   padding: 20px;
   cursor: pointer;
   border: 2px solid #fff; /* White border */
@@ -59,8 +55,9 @@ button:active {
   outline: none !important; /* Remove outline on hover/focus/active */
   animation: none !important; /* Disable animation on hover/focus/active */
 }
+
 @keyframes vibrate {
   to {
-    transform: translateX(5px); /* Adjust distance for the vibrating effect */
+    transform: translateX(5px); /* vibrating effect */
   }
 }
