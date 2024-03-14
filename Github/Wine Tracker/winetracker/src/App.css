@@ -61,3 +61,17 @@ button:active {
     transform: translateX(5px); /* vibrating effect */
   }
 }
+
+.link-container {
+  margin-left: 20px;
+}
+
+.create-account-link {
+  color: #ffd700;
+  text-decoration: underline;
+  font-family: 'Arial Black', cursive;
+}
+
+.indented-link {
+  margin-left: 80px; /* indent create account words */
+}
