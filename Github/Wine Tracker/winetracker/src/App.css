@@ -2,31 +2,18 @@
 body {
   font-family: 'Arial Black', cursive;
   background-image: url('src/assets/images/wines.png');
-  background-color: #008080; /* Deeper turquoise background color */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #fff; /* White text */
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: right;
-  min-height: 100vh;
-  margin: 0;
 }
 
 h1 {
   color: #fff; /* White text */
 }
 
-/* Styles for the logo images */
-.logo {
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-}
-
-/* Styles for the main heading */
+/* Styles for the main "LUSH" heading */
 .lush {
   color: #fff;
   font-size: 5em;
@@ -34,21 +21,27 @@ h1 {
                4px 4px 6px #600020,
                6px 6px 8px #600020; /* 3D effect */
 }
+
 /* Styles for the button */
-button {
-  background-color: #600020; /* Deep wine red background */
-  color: #600020; /* White text*/
+.returning-button,
+.create-account-button {
+  background-color: #fff; /* White background */
+  color: #600020; /* Wine red text */
   padding: 20px;
   cursor: pointer;
-  border: 2px solid #fff; /* White border */
+  border: 2px solid #600020; /* Wine red border */
   outline: none;
   animation: vibrate 0.3s infinite alternate;
+  margin-left: 100px; /* Adjust the indentation as needed */
 }
 
 /* Updated styles for hover, focus, and active states */
-button:hover,
-button:focus,
-button:active {
+.returning-button:hover,
+.returning-button:focus,
+.returning-button:active,
+.create-account-button:hover,
+.create-account-button:focus,
+.create-account-button:active {
   background-color: #600020 !important; /* Deep wine red on hover/focus/active */
   border: 2px solid #fff !important; /* White border on hover/focus/active */
   color: #fff !important; /* White text color on hover/focus/active */
@@ -66,12 +59,7 @@ button:active {
   margin-left: 20px;
 }
 
-.create-account-link {
-  color: #ffd700;
-  text-decoration: underline;
-  font-family: 'Arial Black', cursive;
-}
-
-.indented-link {
-  margin-left: 80px; /* indent create account words */
+/* Add indentation to the text */
+.instructions-indented-text {
+  margin-left: 210px; /* Adjust the indentation as needed */
 }
